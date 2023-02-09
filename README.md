@@ -42,3 +42,12 @@ echo -e "\e[1;31mHello World\e[0m"
 | Blue | 34m | 44m |
 | Magenta | 35m | 45m |
 | Cyan | 36m | 46m |
+| Light Gray | 37m | 47m |
+| Gray | 90m | 100m |
+| Light Red | 91m | 101m |
+| Light Green | 92m | 102m |
+| Light Yellow | 93m | 103m |
+| Light Blue | 94m | 104m |
+| Light Magenta | 95m | 105m |
+| Light Cyan | 96m | 106m |
+| White | 97m | 107m |
