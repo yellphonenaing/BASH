@@ -23,3 +23,16 @@
 #!/usr/bin/bash
 #Use echo to print texts
 echo "Hello World"
+```
+
+**2. Color Patterns**
+
+```
+#!/usr/bin/bash
+#Use -e option to add colours to text
+echo -e "\e[1;31mHello World\e[0m"
+```
+
+| Color | Text Color | Background Color |
+|--|--|
+| Red | 30m | 41m |
