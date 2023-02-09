@@ -32,7 +32,7 @@ echo "Hello World"
 #Use -e option to add colours to text
 echo -e "\e[1;31mHello World\e[0m"
 ```
-
+>Colour Codes
 | Color | Text Color | Background Color |
 |--|--|
 | Red | 30m | 41m |
