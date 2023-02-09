@@ -83,3 +83,15 @@ echo -e "\e[1;31mHello World\e[0m"
 name="Yell Phone Naing"
 echo "My name is $name"
 ```
+
+**3.3 Command Line Argument**
+
+```
+#!/usr/bin/bash
+
+echo "My name is $1.I am $2 years old.I live in $3."
+```
+
+>Run script as bash script.sh YPN 20 Malun
+>**Output : ** My name is YPN.I am 20 years old.I live in Malun.
+
