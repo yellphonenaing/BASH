@@ -52,7 +52,7 @@ echo -e "\e[1;31mHello World\e[0m"
 | Light Cyan | 96m | 106m |
 | White | 97m | 107m |
 
-**3. Variables **
+**3. Variables**
 >Three Types Of Variables in **BASH**
 ```
 1. System  Declared Variables
