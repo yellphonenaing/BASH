@@ -53,6 +53,7 @@ echo -e "\e[1;31mHello World\e[0m"
 | White | 97m | 107m |
 
 **3. Variables**
+
 >Three Types Of Variables in **BASH**
 ```
 1. System  Declared Variables
@@ -97,3 +98,27 @@ echo "My name is $1.I am $2 years old.I live in $3."
 
 >**Output :** My name is YPN.I am 20 years old.I live in Malun.
 
+**4. Redirections**
+
+>Two Types Of Redirections
+```
+1. Truncate Redirection
+2. Append Redirection
+```
+
+**4.1 Truncate Redirection**
+>We can use > to perform Truncate Redireection
+
+```
+ls > fileslist.txt
+```
+
+**4.2 Append Redirection**
+>We can use >> to perform Append Redireection
+
+```
+echo "Python" >>languages.txt
+echo "PHP" >>languages.txt
+echo "BASH" >>languages.txt
+echo "Ruby" >>languages.txt
+```
