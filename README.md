@@ -32,6 +32,20 @@ echo "Hello World"
 #Use -e option to add colours to text
 echo -e "\e[1;31mHello World\e[0m"
 ```
+
+>Style Codes
+
+```
+|Code | Style |
+|--|--|
+| 0 | Normal |
+| 1 | Bold |
+| 2 | Faint |
+| 3 | Italics |
+| 4 | Underlined |
+| 4 | Blink |
+```
+
 >Colour Codes
 
 | Color | Text Color | Background Color |
