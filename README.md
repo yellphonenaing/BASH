@@ -60,9 +60,22 @@ echo -e "\e[1;31mHello World\e[0m"
 3. Command Line Argument
 ```
 
-**Programmer Declared Variable**
+**3.1 System Declared Variables**
 
->We can use $ to declare a variable
+| Variable | Value |
+|--|--|
+| $0 | Script File Name (or) Shell Name |
+| $$ | Process ID Of Running BASH Script|
+| $PWD | Current Directory |
+| $OLDPWD | Old Directory |
+| $FUNCNAME | Funcation Name |
+| $BASH_VERSION | Version Of BASH |
+| $HOSTNAME | Host Name |
+| $OSTYPE | Type Of OS |
+| $RANDOM | Random Number Between 0 and 32767 |
+
+
+**3.2 Programmer Declared Variable**
 
 ```
 #!/usr/bin/bash
