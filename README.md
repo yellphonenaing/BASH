@@ -17,7 +17,7 @@
 6. Fish
 ```
 
-#1. Text Formatting
+# 1. Text Formatting
 
 ```
 #!/usr/bin/bash
@@ -25,7 +25,7 @@
 echo "Hello World"
 ```
 
-#2. Color Patterns
+# 2. Color Patterns
 
 ```
 #!/usr/bin/bash
@@ -52,7 +52,7 @@ echo -e "\e[1;31mHello World\e[0m"
 | Light Cyan | 96m | 106m |
 | White | 97m | 107m |
 
-#3. Variables
+# 3. Variables
 
 >Three Types Of Variables in **BASH**
 ```
@@ -98,7 +98,7 @@ echo "My name is $1.I am $2 years old.I live in $3."
 
 >**Output :** My name is YPN.I am 20 years old.I live in Malun.
 
-#4. Redirections
+# 4. Redirections
 
 >Two Types Of Redirections
 ```
