@@ -33,6 +33,7 @@ echo "Hello World"
 echo -e "\e[1;31mHello World\e[0m"
 ```
 >Colour Codes
+
 | Color | Text Color | Background Color |
-|--|--|
+|--|--|--|
 | Red | 30m | 41m |
