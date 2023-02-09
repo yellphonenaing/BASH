@@ -21,5 +21,5 @@
 
 ```
 #!/usr/bin/bash
-#Use **echo** to print texts
+#Use echo to print texts
 echo "Hello World"
