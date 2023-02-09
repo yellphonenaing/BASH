@@ -17,7 +17,7 @@
 6. Fish
 ```
 
-**1. Text Formatting**
+#**1. Text Formatting**
 
 ```
 #!/usr/bin/bash
