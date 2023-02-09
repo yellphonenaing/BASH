@@ -51,3 +51,22 @@ echo -e "\e[1;31mHello World\e[0m"
 | Light Magenta | 95m | 105m |
 | Light Cyan | 96m | 106m |
 | White | 97m | 107m |
+
+**3. Variables **
+>Three Types Of Variables in **BASH**
+```
+1. System  Declared Variables
+2. Programmer Declared Variables
+3. Command Line Argument
+```
+
+**Programmer Declared Variable**
+
+>We can use $ to declare a variable
+
+```
+#!/usr/bin/bash
+#Declare name as Yell Phone Naing
+name="Yell Phone Naing"
+echo "My name is $name"
+```
