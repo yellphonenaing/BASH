@@ -35,7 +35,6 @@ echo -e "\e[1;31mHello World\e[0m"
 
 >Style Codes
 
-```
 |Code | Style |
 |--|--|
 | 0 | Normal |
@@ -44,7 +43,6 @@ echo -e "\e[1;31mHello World\e[0m"
 | 3 | Italics |
 | 4 | Underlined |
 | 4 | Blink |
-```
 
 >Colour Codes
 
