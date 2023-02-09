@@ -37,7 +37,6 @@ echo -e "\e[1;31mHello World\e[0m"
 | Color | Text Color | Background Color |
 |--|--|--|
 | Red | 31m | 41m |
-| Red
 | Green | 32m | 42m |
 | Yellow | 33m | 43m |
 | Blue | 34m | 44m |
