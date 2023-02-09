@@ -122,3 +122,36 @@ echo "PHP" >>languages.txt
 echo "BASH" >>languages.txt
 echo "Ruby" >>languages.txt
 ```
+
+# 5. User Prompts
+>User prompt is an input used to get data from user.
+
+>Normal Prompt
+```
+#!/usr/bin/bash
+echo "Enter your name :: " name
+read name
+echo "Your name is $name"
+```
+
+>Prompt with paragraph
+```
+#!/usr/bin/bash
+read -p "Enter your name : " name
+echo "Your name is $name"
+```
+
+
+>Password Input
+```
+#!/usr/bin/bash
+read -s -p "Enter your password : " password
+echo -e "\nYour password is $password"
+```
+
+>Prompt with color
+```
+#!/usr/bin/bash
+read -p $'\e[1;32mEnter your name : \e[0m' name
+echo "Your name is $name"
+```
