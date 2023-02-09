@@ -13,6 +13,13 @@
 2. ZSH
 3. TSH
 4. CSH
-5.KSH
+5. KSH
 6. Fish
 ```
+
+**1. Text Formatting**
+
+```
+#!/usr/bin/bash
+#Use **echo** to print texts
+echo "Hello World"
