@@ -289,3 +289,11 @@ expr 1 + 4
 expr 100 - 70
 expr 10 \* 3
 ```
+
+# 9. Shell Expensions
+>Three types of expensions
+```
+1. Brace Expension
+2. Variable Expension
+3. Command Substitution
+```
