@@ -20,6 +20,7 @@
 # Linux Command syntax
 | Character | Action |
 |--|--|
+| ; | And |
 | && | And |
 | \|\| | Or |
 | \| | Give Output To Second Command |
