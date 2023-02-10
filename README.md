@@ -17,6 +17,13 @@
 6. Fish
 ```
 
+# Linux Command syntax
+| Character | Action |
+|--|--|
+| && | And |
+| || | Or |
+
+
 # 1. Text Formatting
 
 ```
