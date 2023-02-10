@@ -167,3 +167,6 @@ echo -e "\nYour password is $password"
 read -p $'\e[1;32mEnter your name : \e[0m' name
 echo "Your name is $name"
 ```
+
+# 6. Conditional Statements
+>The conditional statement is used in any programming language to do any decision-making tasks
