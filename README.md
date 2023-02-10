@@ -380,7 +380,7 @@ unset Array2[name]
 3. Until Loop
 ```
 
-**For loop examples**
+**11.1 For loop examples**
 >Looping with brace expension
 ```
 #!/usr/bin/bash
@@ -427,7 +427,7 @@ do
 done
 ```
 
-**While Loop Examples**
+**11.2 While Loop Examples**
 >While Loop
 ```
 #!/bin/bash
