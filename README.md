@@ -297,3 +297,39 @@ expr 10 \* 3
 2. Variable Expension
 3. Command Substitution
 ```
+
+**9.1 Brace Expension**
+```
+#!/usr/bin/bash
+echo {1..10}
+#Output : 1 2 3 4 5 6 7 8 9 10
+echo {a..z}
+#Output : a b c d e f g h i j k l m n o p q r s t u v w x y z
+touch lesson{1..10}.sh
+#will create 10 files
+echo r{1..5}p
+#Output : r1p r2p r3p r4p r5p
+echo "I like "{BASH,PHP,Python}" so much."
+#Output : I like BASH so much.I like PHP so much.I like Python so much
+```
+
+**9.2 Variable Expension**
+
+```
+#!/usr/bin/bash
+Text=abcdefghij12345
+echo ${Text}
+#Output : abcdefghij12345
+echo ${Text: 0}
+#Output : abcdefghij12345
+echo ${Text: 1}
+#Output : bcdefghij12345
+echo ${Text: 4}
+#Output : efghij12345
+echo ${Text:0:1}
+#Output : a
+echo ${Text: 3:2}
+#Output : de
+echo ${Text: -1}
+#Output : 5
+```
