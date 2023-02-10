@@ -519,3 +519,6 @@ PS1="\e[1;32m\u@\h\e[0m : "
 ```
 
 >We can add this to ~/.bashrc
+
+# BASH Scripting
+>Made by Yell Phone Naing
