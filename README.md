@@ -21,7 +21,7 @@
 | Character | Action |
 |--|--|
 | && | And |
-| || | Or |
+| \|\| | Or |
 
 
 # 1. Text Formatting
