@@ -268,3 +268,13 @@ esac
 | % | To find remainder of two operands |
 | ++ | To increase the value of operand by one |
 | -- | To decrease the value of a operand by one |
+
+# 8. Math
+>Using BASH Capabilities
+```
+#!/usr/bin/bash
+x=10
+y=7
+echo $(( 1+2 ))
+echo $(( x+y ))
+```
