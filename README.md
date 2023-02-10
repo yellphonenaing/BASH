@@ -23,7 +23,7 @@
 | ; | And |
 | && | And |
 | \|\| | Or |
-| \| | Give Output To Second Command |
+| \| | Share Output To Second Command |
 
 ```
 ls -lah /tmp
