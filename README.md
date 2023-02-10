@@ -520,5 +520,9 @@ PS1="\e[1;32m\u@\h\e[0m : "
 
 >We can add this to ~/.bashrc
 
-# BASH Scripting
->Made by Yell Phone Naing
+**Video Channel**
+```
+https://www.youtube.com/playlist?list=PLl9tJseyzT3F4jHF9IF5xFTGVc399t6j5
+```
+
+*BASH Scripting Course by* [**Yell Phone Naing**](https://www.facebook.com/yellphoen.naing/)
