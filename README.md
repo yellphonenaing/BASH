@@ -236,3 +236,24 @@ echo "You are from Indea";;
 echo "Your country is not in list";;
 esac
 ```
+
+# 7. Operators
+>Many conditional operators can be used in conditional statements
+
+**Conditional Operators**
+
+| Operators | Description |
+|--|--|
+| == | Returns true if two strings are equivalent |
+| != | Returns true if two strings are not equivalent |
+| ! | Returns true if the expression is false |
+| > | Returns true if first number is greater than second number |
+| < | Returns true if first number is less than second number |
+| -eq | Returns true if two numbers are equivalent |
+| -gt | Returns true if first number is greater than second number |
+| -lt | Returns true if first number is less than second number |
+| -d | Check the existence of a directory |
+| -e | Check the existence of a file |
+| -r | Check the existence of a file and read permission |
+| -w | Check the existence of a file and write permission |
+| -x | Check the existence of a file and execute permission |
