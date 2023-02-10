@@ -192,3 +192,10 @@ else
 echo "Not Equal"
 fi
 ```
+
+>if else shortcut
+```
+#!/usr/bin/bash
+[[ "Yell Phone Naing" == "Yell Phone Naing" ]] && echo "True"
+[[ "Yell Phone Naing" == "CyberBullet" ]] || echo "False"
+```
