@@ -506,7 +506,7 @@ welcome
 | \n | Break Line |
 | \t | Current Time  (24H) |
 | \T | Current Time (12H) |
-| \@ | Current Time (am/pm) |
+| \\@ | Current Time (am/pm) |
 | \A | Current Time (H:M) |
 | \w | Current Directory |
 | \v | BASH version |
