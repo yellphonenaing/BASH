@@ -417,3 +417,12 @@ done
 ```
 >Run the script as : bash loop.sh BASH PHP Python Ruby
 
+>Looping Over An Array
+```
+#!/usr/bin/bash
+languages=(Python PHP BASH Ruby)
+for lang in "${languages[@]}";
+do
+    echo "I love $lang so much."
+done
+```
