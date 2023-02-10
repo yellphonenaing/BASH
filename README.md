@@ -427,10 +427,19 @@ do
 done
 ```
 
+>Infinity Loop
+```
+#!/usr/bin/bash
+for (( ; ; ))
+do
+   echo "infinite loops ( hit CTRL+C to stop)"
+done
+```
+
 **11.2 While Loop Examples**
 >While Loop
 ```
-#!/bin/bash
+#!/usr/bin/bash
 x=1
 while [ $x -le 5 ]
 do
@@ -445,4 +454,24 @@ done
 while IFS= read -r lines;do
 echo $lines
 done <wl.txt
+```
+
+>Infinity Loop
+```
+#!/usr/bin/bash
+while : ;do
+        echo "infinite loops ( press CTRL+C to stop)"
+done
+```
+
+**11.3 Until Loop**
+```
+#!/usr/bin/bash
+c=0
+
+until [ $c -gt 5 ]
+do
+  echo "Counter: $c"
+  ((c++))
+done
 ```
