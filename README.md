@@ -169,4 +169,26 @@ echo "Your name is $name"
 ```
 
 # 6. Conditional Statements
->The conditional statement is used in any programming language to do any decision-making tasks
+>The conditional statement is used in any programming language to do any decision-making tasks.
+
+>if else statement
+```
+#!/usr/bin/bash
+if [ 1 == 1 ];then
+echo "Equal"
+else
+echo "Not Equal"
+fi
+```
+
+>if elif else statement
+```
+#!/usr/bin/bash
+if [ 20 == 1 ];then
+echo "Equal"
+elif [ 20 = 20 ];then
+echo "20 = 20 is true"
+else
+echo "Not Equal"
+fi
+```
