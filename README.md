@@ -371,3 +371,49 @@ unset Array1[0]
 unset Array1
 unset Array2[name]
 ```
+
+# 11. Looping
+>Three types of looping in BASH
+```
+1. For Loop
+2. While Loop
+3. Until Loop
+```
+
+**For loop examples**
+>Looping with brace expension
+```
+#!/usr/bin/bash
+for i in {1..10};do
+echo "$i time"
+done
+```
+
+>Looping (Three Expensions)
+```
+#!/usr/bin/bash
+for (( c=1; c<=10; c++ ))
+do 
+   echo "Looping $c times"
+done
+```
+
+>Listing Files
+```
+#!/usr/bin/bash
+for files in ./*;do
+echo $files
+done
+```
+
+>Looping withs auguments
+```
+#!/usr/bin/bash
+for i in $@
+do
+    echo "Script Argument is $i"
+done
+
+```
+>Run the script as : bash loop.sh BASH PHP Python Ruby
+
