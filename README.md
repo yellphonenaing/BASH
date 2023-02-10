@@ -426,3 +426,23 @@ do
     echo "I love $lang so much."
 done
 ```
+
+**While Loop Examples**
+>While Loop
+```
+#!/bin/bash
+x=1
+while [ $x -le 5 ]
+do
+  echo "Looping $x times"
+  x=$(( $x + 1 ))
+done
+```
+
+>Reading File Contents
+```
+#!/usr/bin/bash
+while IFS= read -r lines;do
+echo $lines
+done <wl.txt
+```
