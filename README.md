@@ -276,5 +276,16 @@ esac
 x=10
 y=7
 echo $(( 1+2 ))
+echo $(( 10-8 ))
+echo $(( 10*7 ))
+echo $(( 10/2 ))
+echo $(( 10%3 ))
 echo $(( x+y ))
+```
+
+>Using expr command
+```
+expr 1 + 4
+expr 100 - 70
+expr 10 \* 3
 ```
