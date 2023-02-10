@@ -260,6 +260,7 @@ esac
 
 **Arithmetic Operators**
 | Operators | Description |
+|--|--|
 | + | To add two operands |
 | - | To subtract two operands |
 | * | To multiply two operands |
