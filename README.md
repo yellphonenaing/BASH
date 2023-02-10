@@ -497,3 +497,25 @@ hi
 }
 welcome
 ```
+
+# 12. Handling System Prompts
+| Prompts | Values |
+|--|--|
+| \u | Username |
+| \h | Host Name |
+| \n | Break Line |
+| \t | Current Time  (24H) |
+| \T | Current Time (12H) |
+| \@ | Current Time (am/pm) |
+| \A | Current Time (H:M) |
+| \w | Current Directory |
+| \v | BASH version |
+| \d | Current Date |
+
+# 13. Customizing PS1
+```
+PS1="Enter Command : "
+PS1="\e[1;32m\u@\h\e[0m : "
+```
+
+>We can add this to ~/.bashrc
