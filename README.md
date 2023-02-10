@@ -257,3 +257,13 @@ esac
 | -r | Check the existence of a file and read permission |
 | -w | Check the existence of a file and write permission |
 | -x | Check the existence of a file and execute permission |
+
+**Arithmetic Operators**
+| Operators | Description |
+| + | To add two operands |
+| - | To subtract two operands |
+| * | To multiply two operands |
+| / | To divide two operands |
+| % | To find remainder of two operands |
+| ++ | To increase the value of operand by one |
+| -- | To decrease the value of a operand by one |
