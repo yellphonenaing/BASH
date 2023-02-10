@@ -240,7 +240,7 @@ esac
 # 7. Operators
 >Many conditional operators can be used in conditional statements
 
-**Conditional Operators**
+**7.1 Conditional Operators**
 
 | Operators | Description |
 |--|--|
@@ -258,7 +258,7 @@ esac
 | -w | Check the existence of a file and write permission |
 | -x | Check the existence of a file and execute permission |
 
-**Arithmetic Operators**
+**7.2 Arithmetic Operators**
 | Operators | Description |
 |--|--|
 | + | To add two operands |
