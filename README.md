@@ -56,7 +56,7 @@ echo -e "\e[1;31mHello World\e[0m"
 | 2 | Faint |
 | 3 | Italics |
 | 4 | Underlined |
-| 4 | Blink |
+| 5 | Blink |
 
 >Colour Codes
 
