@@ -22,6 +22,12 @@
 |--|--|
 | && | And |
 | \|\| | Or |
+| \| | Give Output To Second Command |
+
+```
+ls -lah /tmp
+```
+>ls = command to be executed, -lah = Options, /tmp = ARgument
 
 
 # 1. Text Formatting
