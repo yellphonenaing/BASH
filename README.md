@@ -333,3 +333,41 @@ echo ${Text: 3:2}
 echo ${Text: -1}
 #Output : 5
 ```
+
+# 10. Array
+>Normal Array
+```
+#!/usr/bin/bash
+Countries=(Myanmar Thai China Indonesia)
+echo ${Countries[@]}
+echo ${Countries[0]}
+```
+
+>Associative Array
+```
+#!/usr/bin/bash
+#!/bin/bash
+declare –A Info
+Info=([name]='Yell Phone Naing' [age]='18' [add]='Malun')
+echo "I am ${Info[name]}.I am ${Info[age]} years old.I live in ${Info[add]}"
+```
+
+>Modify An Array
+```
+#!/usr/bin/bash
+Array1=(Mm Th Indo USA IN)
+declare –A Array2
+Array2=([name]="Yell Phone Naing" [age]="18" [add]="Malun")
+Array1[0]=Myanmar
+Array2[name]="Cyber Bullet"
+```
+
+>Delete An Array
+```
+Array1=(Mm Th Indo USA IN)
+declare –A Array2
+Array2=([name]="Yell Phone Naing" [age]="18" [add]="Malun")
+unset Array1[0]
+unset Array1
+unset Array2[name]
+```
