@@ -475,3 +475,25 @@ do
   ((c++))
 done
 ```
+
+# 12. Functions
+>Function
+```
+#!/usr/bin/bash
+welcome () {
+echo "Welcome to you"
+}
+welcome
+```
+
+>Nested Function
+```
+#!/usr/bin/bash
+welcome () {
+hi () {
+echo "Hi,I am Yell Phone Naing"
+}
+hi
+}
+welcome
+```
