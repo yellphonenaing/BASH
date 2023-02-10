@@ -213,3 +213,26 @@ fi
 [[ "Yell Phone Naing" == "Yell Phone Naing" ]] && echo "True"
 [[ "Yell Phone Naing" == "CyberBullet" ]] || echo "False"
 ```
+
+>Case statement
+```
+#!/usr/bin/bash
+echo "Where are you from ?
+(1) Myanmar
+(2) Thai
+(3) China
+(4) Indea"
+read -p "Enter a keyword : " country
+case $country in
+1)
+echo "You are from Myanmar";;
+2)
+echo "You are from Thai";;
+3)
+echo "You are from China";;
+4)
+echo "You are from Indea";;
+*)
+echo "Your country is not in list";;
+esac
+```
