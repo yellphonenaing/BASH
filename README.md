@@ -178,7 +178,7 @@ echo -e "\nYour password is $password"
 >Prompt with color
 ```
 #!/usr/bin/bash
-read -p $'\e[1;32mEnter your name : \e[0m' name
+read -p $'\e[1;32mEnter your name : \e[0m'
 echo "Your name is $name"
 ```
 
