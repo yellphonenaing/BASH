@@ -155,7 +155,7 @@ echo "Ruby" >>languages.txt
 >Normal Prompt
 ```
 #!/usr/bin/bash
-echo "Enter your name :: " name
+echo "Enter your name :: "
 read name
 echo "Your name is $name"
 ```
