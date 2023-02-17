@@ -347,7 +347,7 @@ echo ${Countries[0]}
 ```
 #!/usr/bin/bash
 #!/bin/bash
-declare –A Info
+declare -A Info
 Info=([name]='Yell Phone Naing' [age]='18' [add]='Malun')
 echo "I am ${Info[name]}.I am ${Info[age]} years old.I live in ${Info[add]}"
 ```
