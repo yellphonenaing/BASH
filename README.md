@@ -414,7 +414,7 @@ echo $files
 done
 ```
 
->Looping withs auguments
+>Looping with auguments
 ```
 #!/usr/bin/bash
 for i in $@
