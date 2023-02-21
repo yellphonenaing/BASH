@@ -290,15 +290,15 @@ expr 100 - 70
 expr 10 \* 3
 ```
 
-# 9. Shell Expensions
+# 9. Shell Expansions
 >Three types of expensions
 ```
-1. Brace Expension
-2. Variable Expension
+1. Brace Expansion
+2. Variable Expansion
 3. Command Substitution
 ```
 
-**9.1 Brace Expension**
+**9.1 Brace Expansion**
 ```
 #!/usr/bin/bash
 echo {1..10}
@@ -313,7 +313,7 @@ echo "I like "{BASH,PHP,Python}" so much."
 #Output : I like BASH so much.I like PHP so much.I like Python so much
 ```
 
-**9.2 Variable Expension**
+**9.2 Variable Expansion**
 
 ```
 #!/usr/bin/bash
