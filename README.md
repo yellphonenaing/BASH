@@ -334,6 +334,14 @@ echo ${Text: -1}
 #Output : 5
 ```
 
+**9.2 Command Substitution**
+
+```
+#!/usr/bin/bash
+echo $(pwd)
+echo `whoami`
+```
+
 # 10. Array
 >Normal Array
 ```
